@@ -14,7 +14,7 @@ func main() {
 	// fmt.Println("O valor de x e " + x)
 	xs := fmt.Sprint(x)
 	fmt.Println("O valor de x e " + xs)
-	fmt.Println("O valor de x e ", x)
+	fmt.Println("O valor de x e ", x, "!!!")
 
 	fmt.Printf("O valor de x e %2.f", x)
 

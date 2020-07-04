@@ -1,6 +1,6 @@
-package main
+// package main
 
-func main() {
-	resultado := somar(3, 4)
-	imprimir(resultado)
-}
+// func main() {
+// 	resultado := somar(3, 4)
+// 	imprimir(resultado)
+// }

@@ -15,6 +15,7 @@ func main() {
 	funcsESalarios["Ricardo"] = 1350.0
 
 	fmt.Println(funcsESalarios)
+
 	delete(funcsESalarios, "Inexistente")
 
 	for nome, salario := range funcsESalarios {

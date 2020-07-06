@@ -15,6 +15,7 @@ func (p produto) precoComDesconto() float64 {
 func main() {
 
 	var produto1 produto
+
 	produto1 = produto{
 		nome:     "Lapis",
 		preco:    1.79,

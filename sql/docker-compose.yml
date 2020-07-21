@@ -8,9 +8,6 @@ services:
       MYSQL_DATABASE: "go_db"
     ports:
       - "3306:3306"
-    volumes:
-      - "./config/my.conf:/etc/mysql/conf.d/config-file.cnf"
-      - "./data:/var/lib/mysql:rw"
     networks:
       - mysql-compose-network
 
